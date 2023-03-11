@@ -46,12 +46,12 @@
 
         bt_layer { 
             bindings = <
-            &kp trans    &kp trans    &kp trans   &kp trans    &kp trans    &kp trans    &kp trans   &kp trans    &kp trans    &kp trans   &kp trans    &kp trans    &kp trans    &kp trans 
-            &kp trans    &kp trans    &kp trans   &kp trans    &kp trans    &kp trans   &kp trans    &kp trans   &kp trans   &kp trans   &kp N0    &kp trans    &kp trans    &kp trans    &kp KP_NUM     &reset    &kp trans    &bootloader
-            &kp trans    &kp trans    &kp trans    &kp trans   &kp trans    &kp trans    &kp trans  &kp trans   &kp trans     &kp trans    &kp trans  &kp trans   &kp trans  &kp trans   &kp KP_N7    &kp trans    &kp trans   &bt BT_CLEAR
-            &kp trans    &kp trans    &kp trans    &kp trans   &kp trans    &kp trans  &kp trans    &kp trans   &kp trans    &kp trans   &kp trans     &kp trans    &kp ENTER     &kp trans   &kp trans   &kp trans
-            &kp trans     &kp trans    &kp trans    &kp trans    &kp trans    &kp trans  &kp trans    &kp trans   &kp trans    &kp COMMA    &kp trans    &kp trans   &kp trans    &kp trans    &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &kp trans
-            &kp trans     &kp trans    &kp trans    &kp SPACE    &kp RALT    &kp trans    &kp trans    &kp trans    &kp trans   &kp trans   &kp trans    &lt 1 KP_DOT
+            &trans    &trans    &trans   &trans    &trans    &trans    &trans   &trans    &trans    &trans   &trans    &trans    &trans    &trans 
+            &trans    &trans    &trans   &trans    &trans    &trans   &trans    &trans   &trans   &trans   &trans    &trans    &trans    &trans    &trans     &reset    &trans    &bootloader
+            &trans    &trans    &trans    &trans   &trans    &trans    &trans  &trans   &trans     &trans    &trans  &trans   &trans  &trans   &trans    &trans    &trans   &bt BT_CLEAR
+            &trans    &trans    &trans    &trans   &trans    &trans  &trans    &trans   &trans    &trans   &trans     &trans    &trans     &trans   &trans   &trans
+            &trans     &trans    &trans    &trans    &trans    &trans  &trans    &trans   &trans    &trans    &trans    &trans   &trans    &trans    &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &trans
+            &trans     &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans   &trans   &trans    &lt 1 KP_DOT
             >;
         };
 
