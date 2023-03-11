@@ -12,8 +12,9 @@
                 = <&macro_press &kp LALT>
                 , <&macro_tap &kp KP_N1 &kp KP_N5 &kp KP_N1>
                 , <&macro_release &kp LALT>
+                ;
         };
-        
+
         cuore: cuore {
             label = "cuore";
             compatible = "zmk,behavior-macro";
